@@ -1,0 +1,52 @@
+baseURL = '/'
+languageCode = 'en-us'
+theme = "terminal"
+
+[params]
+fullWidthTheme = false
+themeColor = "pink"
+centerTheme = true
+readingTime = true
+Toc = true
+
+[languages]
+[languages.en]
+languageName = "English"
+title = "Aron Kylebäck Portfolio"
+subtitle = "Aron Kylebäck, a web developer from Sweden"
+owner = "Aron Kylebäck"
+keywords = "Aron Kylebäck, portfolio, web developer, web consultant"
+copyright = "Copyright 2023 Aron Kylebäck"
+menuMore = "Show more"
+readMore = "Read more"
+readOtherPosts = "Read other posts"
+newerPosts = "Newer posts"
+olderPosts = "Older posts"
+missingContentMessage = "You seem to be lost. I can't find the page you're looking for."
+missingBackButtonLabel = "Go back to familiar territory"
+
+[languages.en.params.logo]
+logoText = "Home"
+logoHomeLink = "/"
+
+[languages.en.menu]
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+[[languages.en.menu.main]]
+identifier = "showcase"
+name = "Showcase"
+url = "/showcase"
+[[languages.en.menu.main]]
+identifier = "setup"
+name = "Setup"
+url = "/setup"
+[[languages.en.menu.main]]
+identifier = "homelab"
+name = "Homelab"
+url = "/homelab"
+[[languages.en.menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact"
