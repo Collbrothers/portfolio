@@ -1,7 +1,7 @@
 ---
 title: "My homelab"
 author: "Aron Emanuel Kylebäck"
-date: 2023-03-25
+date: 2024-06-20
 ---
 ## Introduction
 What is a homelab? Why do I have one? What's in it?
@@ -20,7 +20,7 @@ And since then, I've found more and more software I could run locally. So I got 
 - HPE DL380 running Esxi 6.7
 - Netgear Managed Switch
 - Raspberry Pi 4 (4gb) x 3
-- 3D Printer (Resin & Filament)
+- 3D Printer (Resin & FDM)
 
 ## What's next
 - A new router, I'm currently deciding between a self-hosted Pfsense instance or a MikroTik router (if I can get my hands on one).

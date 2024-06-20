@@ -1,0 +1,46 @@
+baseURL: /
+languageCode: en-us
+theme: terminal
+googleAnalytics: G-BPNYTKCJLQ
+params:
+  fullWidthTheme: false
+  themeColor: pink
+  centerTheme: true
+  readingTime: true
+  Toc: true
+languages:
+  en:
+    languageName: English
+    title: Aron Kylebäck Portfolio
+    params:
+      newerPosts: Newer posts
+      olderPosts: Older posts
+      missingContentMessage: You seem to be lost. I can't find the page you're looking for.
+      missingBackButtonLabel: Go back to familiar territory
+      subtitle: Aron Kylebäck, a web developer from Sweden
+      owner: Aron Kylebäck
+      keywords: Aron Kylebäck, portfolio, web developer, web consultant
+      copyright: Copyright 2023 Aron Kylebäck
+      menuMore: Show more
+      readMore: Read more
+      readOtherPosts: Read other posts
+      logo:
+        logoText: Home
+        logoHomeLink: /
+    menu:
+      main:
+        - identifier: about
+          name: About
+          url: /about
+        - identifier: showcase
+          name: Showcase
+          url: /showcase
+        - identifier: setup
+          name: Setup
+          url: /setup
+        - identifier: homelab
+          name: Homelab
+          url: /homelab
+        - identifier: contact
+          name: Contact
+          url: /contact
